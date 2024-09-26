@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { ProjectList } from "../projectList/ProjectList.jsx";
-import { Toolbar } from "../toolbar/Toolbar";
+import { Toolbar } from "../toolbar/Toolbar.jsx";
 import cards from "../cards.js";
 
 export class Portfolio extends Component {
