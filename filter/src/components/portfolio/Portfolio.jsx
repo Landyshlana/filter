@@ -25,9 +25,9 @@ export class Portfolio extends Component {
       return (
       <div className="container">
         <Toolbar
-          filters={["All", "Websites", "Flayers", "Business Cards"]}
+          filters={this.state.filters}
           selected={this.state.selected}
-          onSelectFilter={this.onSelectFilter}
+          onSelectFilter={ this.onSelectFilter}
         />
         <ProjectList projects={this.getProjects()} />
       </div>
